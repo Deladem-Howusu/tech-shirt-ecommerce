@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Adamina&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "tailwindcss";
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+.head,
+.unisex h1,
+.design h1 {
+  font-family: "Adamina", serif;
+}
+
+.category h1,
+.category h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.shirt h2,
+.category p,
+.unisex,
+.shop {
+  font-family: "Figtree", sans-serif;
+}
+
+.footer {
+  font-family: "Inter", sans-serif;
+}
+
+.display {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  gap: 1rem;
+}
+
+/* .shirt-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  overflow-y: scroll;
+} */
+
+.filter,
+.shirt-grid {
+  scrollbar-width: thin;
+  scrollbar-color: #403f3f45 transparent;
+  scroll-behavior: smooth;
+}
+
+.group {
+  font-family: "montserrat", sans-serif;
+}
+
+.shop {
+  scrollbar-width: none;
+}
